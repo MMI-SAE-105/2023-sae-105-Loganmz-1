@@ -1,0 +1,7 @@
+<svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pin-drop">
+<circle id="secondary-upstroke" cx="36.5" cy="24.3333" r="3.80208" fill="white"/>
+<path id="secondary" d="M48.4537 56.6967C48.5974 57.0437 48.6698 57.4161 48.6666 57.7917C48.6666 61.1376 43.222 63.8751 36.4999 63.8751C29.7778 63.8751 24.3332 61.1376 24.3332 57.7917C24.33 57.4161 24.4024 57.0437 24.5461 56.6967" stroke="white" stroke-width="6.08333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="primary" d="M51.7084 24.3333C51.7084 20.2998 50.1061 16.4315 47.2539 13.5794C44.4018 10.7273 40.5335 9.125 36.5 9.125C32.4665 9.125 28.5982 10.7273 25.7461 13.5794C22.894 16.4315 21.2917 20.2998 21.2917 24.3333C21.2917 36.5 36.5 51.7083 36.5 51.7083C36.5 51.7083 51.7084 36.5 51.7084 24.3333Z" stroke="white" stroke-width="6.08333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
