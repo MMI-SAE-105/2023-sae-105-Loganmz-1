@@ -73,3 +73,14 @@ img {
     justify-content: center;
     padding-bottom: var(--space5x);
 }
+
+
+
+
+.info_card_titre{
+  font-family: var(--font-family-2);
+  font-size: var(--text-xxl);
+  font-weight: normal;
+  padding-left: var(--space2x);
+  margin-bottom:0 ;
+}

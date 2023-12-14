@@ -1,3 +1,30 @@
-.footer_bottom {
+.footer {
     background-color: black;
+
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space2x);
+    list-style: none;
+}
+
+.footer_bottom_img {
+    width: 40%;
+    padding-bottom: var(--space4x);
+}
+
+.bottom_list {
+    list-style: none;
+}
+
+.link_title {
+    padding-bottom: var(--space4x);
+    
+}
+.footer_bottom_link {
+    text-decoration: underline;
 }

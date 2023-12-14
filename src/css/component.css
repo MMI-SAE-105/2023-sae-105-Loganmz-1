@@ -2,7 +2,7 @@
     background-color: var(--white) ;
     color: black;
     font-weight: 700;
-    padding: var(--space2x) var(--space3x);
+    padding: var(--space2x) var(--space4x);
     border-radius: var(--space4x);
     border: none;
     box-shadow: 6px 4px var(--red);
@@ -49,4 +49,22 @@
     font-size: var(--text-lg);
     font-weight: normal;
     width: 77px;
+}
+
+.info_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info_card_img{
+    
+}
+
+.main_info_card {
+    padding-top: var(--space5x);
+}
+.main_info a{
+    display: flex;
+    justify-content: center;
+    padding-top: var(--space5x);
+    padding-bottom: var(--space4x);
 }
