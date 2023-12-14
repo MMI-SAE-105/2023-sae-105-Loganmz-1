@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-2);
+    font-size: var(--text-xl);
+    line-height: 1.6;
+  
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+h1 {
+    font-family: var(--font-family-1);
+    font-size: var(--title-xxxl);
+    font-weight: normal;
+    line-height: 1.1;
+  }
+
+h4 {
+    font-family: var(--font-family-3);
+    font-size: var(--title-lg);
+    font-weight: normal;
+    line-height: 0;
+  }
+
+h2 {
+    font-family: var(--font-family-3);
+    font-size: var(--title-xxl);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 0;
+}
