@@ -55,9 +55,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.info_card_img{
-    
-}
+
 
 .main_info_card {
     padding-top: var(--space5x);
