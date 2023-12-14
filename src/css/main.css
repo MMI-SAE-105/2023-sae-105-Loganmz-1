@@ -23,8 +23,11 @@ h1 {
 h4 {
     font-family: var(--font-family-3);
     font-size: var(--title-lg);
+    text-transform: uppercase;
     font-weight: normal;
-    line-height: 0;
+    line-height: 1.1;
+
+   
   }
 
 h2 {
@@ -33,4 +36,40 @@ h2 {
     text-transform: uppercase;
     font-weight: normal;
     line-height: 0;
+}
+
+
+h3 {
+    font-family: var(--font-family-2);
+    font-weight: normal;
+    font-size: var(--title-xl);
+    line-height: normal;
+}
+a {
+    font-family: var(--font-family-2);
+    color: var(--white);
+    text-decoration: none;
+  }
+
+
+img {
+    max-width: 100%;
+    
+}
+
+.main {
+    margin: var(--space2x);
+}
+
+.main_hero_container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--space5x);
+}
+
+
+.main_hero_arrow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--space5x);
 }

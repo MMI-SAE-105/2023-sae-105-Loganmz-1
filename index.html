@@ -11,7 +11,7 @@
 <body>
      <!-- En-tête de la page -->
     <header class="header">
-        <img class="header_logo" src="public/img/logo.svg" alt="">
+        <a href="/"><img class="header_logo" src="public/img/logo.svg" alt=""></a>
         <img class="header_toogle" src="public/img/toggel.svg" alt="">
     </header>
     <!-- Fin de l'en-tête de page -->
@@ -21,15 +21,19 @@
     <main class="main">
         <section class="main_hero">
           <h1 class="main_hero_title">Eero Saarinen</h1>
-          <img class="main_hero_img" src="public/img/img-eero.webp" alt="">  
-          <h4 class="main_hero_subtitle">exposition temporaire</h4>
+          <img class="main_hero_img" src="public/img/img-eero.webp" alt="">
+          <div class="main_hero_container">
+            <h4 class="main_hero_subtitle">exposition temporaire</h4>
           <img class="main_hero_square" src="public/img/square.svg" alt="">
-          <img class="main_hero_arrow" src="public/img/scrollarrow.svg" alt="">
+          </div>
+          <div class="main_hero_arrow">  
+            <img class="main_hero_arrow_img" src="public/img/scrollarrow.svg" alt="">
+            </div>
           <p class="main_hero_text">Du 13 avril au 23 juin,
             Plongez dans l'univers de l'architecte et designer Eero Saarinen
             en retraçant son évolution au fil du temps
             à la fondation Cartier, 261 Bd Raspail, Paris</p>
-          <button class="main_hero_btn"> <a href="eero.html">En savoir plus</a></button>
+            <a href="eero.html"><button class="main_hero_btn">  En savoir plus</button></a>
         </section>
 
         <section class="main_oeuvre">
@@ -37,8 +41,10 @@
             <hr class="main_oeuvre_line">
             <div class="main_oeuvre_card card">
                 <a href="gatewayarch.html">
+                <div class="card-top">
                 <h3 class="card_title">Gateway Arch</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-arch.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">28/10 1965</figcaption>
@@ -47,8 +53,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="dullesairport.html">
+                <div class="card-top">
                 <h3 class="card_title">Dulles Airport</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-airport.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">17/11 1962</figcaption>
@@ -57,8 +65,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="KleinhansMusicHall.html">
+                <div class="card-top">
                 <h3 class="card_title">Kleinhans Music Hall</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-music.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">12/10 1940</figcaption>
@@ -67,8 +77,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="TWAFlightCenter.html">
+                <div class="card-top">
                 <h3 class="card_title">TWA Flight Center</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-twa.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">28/05 1962</figcaption>
@@ -77,8 +89,10 @@
             </div>
             <div class="main_oeuvre_card card">
                 <a href="thetulipchair.html">
+                <div class="card-top">
                 <h3 class="card_title">The Tulip Chair</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-tulip.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">1956</figcaption>
@@ -87,8 +101,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="YaleWhale.html">
+                <div class="card-top">
                 <h3 class="card_title">Yale Whale</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-yale.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">1958</figcaption>
@@ -97,8 +113,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="NorthChristianChurch.html">
+                <div class="card-top">
                 <h3 class="card_title">North Christian Church</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-church.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">1964</figcaption>
@@ -107,8 +125,10 @@
             </div>
             <div class="main_oeuvre_card card" >
                 <a href="IrwinUnionBank.html">
+                <div class="card-top">
                 <h3 class="card_title">Irwin Union Bank</h3>
                 <img class="card_arrow" src="public/img/arrow-2.svg" alt="">
+                </div>
                 <hr class="card_line">
                 <figure class="card_figure"><img class="card_img" src="public/img/img-bank.webp" alt=""></figure>
                 <figcaption class="card_figcaption-left">1954</figcaption>

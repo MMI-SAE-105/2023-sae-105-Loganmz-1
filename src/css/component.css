@@ -1,0 +1,52 @@
+.main_hero_btn{
+    background-color: var(--white) ;
+    color: black;
+    font-weight: 700;
+    padding: var(--space2x) var(--space3x);
+    border-radius: var(--space4x);
+    border: none;
+    box-shadow: 6px 4px var(--red);
+    transition: transform 50ms, box-shadow 50ms;
+   
+}
+
+
+.main_hero a{
+    display: flex;
+    justify-content: center;
+    padding-top: var(--space5x);
+    padding-bottom: var(--space4x);
+}
+
+
+.card_title{
+    font-family: var(--font-family-2);
+    font-size: var(--title-xl);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-bottom: var(--space2x);
+    width: 132px;
+    margin: 0;
+    
+   
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--space5x);
+}
+
+.card_figure {
+    width: 100%;
+    margin: 0;
+    padding-top: var(--space4x);
+}
+
+.card_figcaption-left{
+    font-family: var(--font-family-3);
+    font-size: var(--text-lg);
+    font-weight: normal;
+    width: 77px;
+}
