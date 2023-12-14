@@ -1,0 +1,31 @@
+@import "normalize.css";
+@import "variable.css";
+@import "main.css";
+@import "header.css";
+@import "footer.css";
+@import "component.css";
+
+
+@font-face {
+    font-family: 'Cako';
+    src: url('/src/fonts/Cako-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/src/fonts/HelveticaRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'pilowlava';
+    src: url('/src/fonts/Pilowlava-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
