@@ -1,5 +1,6 @@
 .footer {
     background-color: black;
+    
 
 }
 
@@ -13,8 +14,9 @@
 }
 
 .footer_bottom_img {
-    width: 40%;
+    width: 100%;
     padding-bottom: var(--space4x);
+    justify-content: center;
 }
 
 .bottom_list {
@@ -27,4 +29,12 @@
 }
 .footer_bottom_link {
     text-decoration: underline;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer li{
+    text-align: center;
 }

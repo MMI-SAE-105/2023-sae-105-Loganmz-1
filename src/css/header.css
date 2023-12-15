@@ -3,3 +3,48 @@
     justify-content: space-between;
     margin: var(--space2x);
 }
+
+
+.header_btn{
+    position: relative;
+    z-index: 10;
+    background: transparent;
+    border: none;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--red);
+    display: grid;
+    place-content: center;
+   
+    
+}
+
+
+
+
+.menu li a {
+    font-family: var(--font-family-3);
+    font-size: var(--title-lg);
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+ 
+
+
+}
+
+.menu li {
+    list-style: none;
+    padding: var(--space1x);
+}
+
+.noscroll
+.noscroll body {
+     overflow: hidden;
+    }
+
