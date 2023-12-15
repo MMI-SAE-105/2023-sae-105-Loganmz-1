@@ -43,8 +43,7 @@
     padding: var(--space1x);
 }
 
-.noscroll
-.noscroll body {
+.noscroll {
      overflow: hidden;
     }
 
