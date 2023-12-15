@@ -84,3 +84,10 @@ img {
   padding-left: var(--space2x);
   margin-bottom:0 ;
 }
+
+
+.main_info_titre{
+  padding-top: var(--space5x);
+}
+
+

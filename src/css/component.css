@@ -58,11 +58,54 @@
 
 
 .main_info_card {
-    padding-top: var(--space5x);
+    padding-top: var(--space4x);
 }
 .main_info a{
     display: flex;
     justify-content: center;
     padding-top: var(--space5x);
     padding-bottom: var(--space4x);
+}
+
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 10 / 4; 
+    max-width: fit-content;}
+    .div2 { grid-area: 2 / 2 / 4 / 3; 
+    width: 260px; text-align: center;}
+    .div3 { grid-area: 4 / 2 / 8 / 3;
+     }
+
+
+.formulaire .input{
+    background-color: transparent;
+    border: var(--white) solid 1px;
+    color: var(--white);
+}
+
+
+.formulaire textarea{
+    height: 120px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire .send {
+    background-color: var(--white) ;
+    color: black;
+    font-weight: 700;
+    padding: var(--space2x) var(--space4x);
+    border-radius: var(--space4x);
+    border: none;
+    margin-top: var(--space5x) ;
 }
