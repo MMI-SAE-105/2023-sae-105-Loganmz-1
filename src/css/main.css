@@ -74,6 +74,9 @@ img {
     padding-bottom: var(--space5x);
 }
 
+.main_hero_text {
+  padding-bottom: var(--space2x);
+}
 
 
 

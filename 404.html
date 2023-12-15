@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"  x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eero</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="/"><img class="header_logo" src="public/img/logo.svg" alt=""></a>
+    <button aria-controls="main nav" @click="menuIsOpen = ! menuIsOpen" class="header_btn">
+        <img src="/public/img/toggel.svg" alt="">
+    </button>
+    
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
+        
+        <ul>
+            <li class="footer_bottom_link link_title"> <a href="eero.html">Eero Saarinen</a></li>
+            <li class="bottom_list_link"> <a href="gatewayarch.html">Gateway Arch</a></li>
+            <li class="bottom_list_link"> <a href="dullesairport.html">Dulles Airport</a></li>
+            <li class="bottom_list_link"> <a href="KleinhansMusicHall.html">Kleinhans Music Hall</a></li>
+            <li class="bottom_list_link"> <a href="TWAFlightCenter.html">TWA Flight Center</a></li>
+            <li class="bottom_list_link"> <a href="thetulipchair.html">The Tulip Chair</a></li>
+            <li class="bottom_list_link"> <a href="YaleWhale.html">Yale Whale</a></li>
+            <li class="bottom_list_link"> <a href="NorthChristianChurch.html">North Christian Church</a></li>
+            <li class="bottom_list_link"> <a href="IrwinUnionBank.html">Irwin Union Bank</a></li>
+           <li class="footer_bottom_link link_title"><a href="#">Billeterie</a></li>
+        </ul>
+      </nav>
+
+</header>
+    <main class="main">
+        <section class="main_hero">
+          <h1 class="main_hero_title">Page404</h1>
+          <p class="main_hero_text">La page que vous cherchez semble introuvable</p>
+        </section>
+    </main>
+    <footer class="footer">
+      <div class="contact">
+          <div class="div1"> <img src="public/img/img-contact.webp" alt=""> </div>
+          <div class="div2"> <h3>Contactez-Nous ! C'est par ici :</h3></div>
+          <div class="div3"> 
+              <form class="formulaire">
+                  <label for="name">Nom :</label>
+                  <input class="input" type="text" id="name" name="user_name">
+                  
+                  <label for="email">Email :</label>
+                  <input class="input" type="email" id="email" name="user_email">
+                  
+                  <label for="message">Message :</label>
+                  <textarea class="input" id="message" name="user_message"></textarea>
+                  
+                  <input class="send" type="submit" value="Envoyer">
+              </form>
+          
+          </div>
+         
+      </div>
+          <div class="footer_bottom">
+          <ul>
+              <img class="footer_bottom_img" src="public/img/logo.svg" alt="">
+             
+              <li class="footer_bottom_link link_title"> <a href="eero.html">Eero Saarinen</a></li>
+              <li class="footer_bottom_link"> Oeuvres</li>
+              <li class="bottom_list_link"> <a href="gatewayarch.html">Gateway Arch</a></li>
+              <li class="bottom_list_link"> <a href="dullesairport.html">Dulles Airport</a></li>
+              <li class="bottom_list_link"> <a href="KleinhansMusicHall.html">Kleinhans Music Hall</a></li>
+              <li class="bottom_list_link"> <a href="TWAFlightCenter.html">TWA Flight Center</a></li>
+              <li class="bottom_list_link"> <a href="thetulipchair.html">The Tulip Chair</a></li>
+              <li class="bottom_list_link"> <a href="YaleWhale.html">Yale Whale</a></li>
+              <li class="bottom_list_link"> <a href="NorthChristianChurch.html">North Christian Church</a></li>
+              <li class="bottom_list_link"> <a href="IrwinUnionBank.html">Irwin Union Bank</a></li>
+             
+
+             <li class="footer_bottom_link link_title">Billeterie</li>
+          </ul>
+          </div>
+  </footer>
+</body>
+</html>

@@ -164,3 +164,67 @@
 .miniatures img {
     cursor: pointer;
 }
+
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 25%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+   
+    
+}
+.carrousel_ecran {
+    width: 100%;
+    scroll-snap-align: start;
+    flex: none;
+    
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+    scroll-snap-align: start; 
+}
+
+.carrousel_ecran figure figcaption {
+   display: none;
+}
+.carrousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+ 
+
+@media (max-width: 1000px) {
+
+    .carrousel_parent-ecrans {
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        
+        
+    }
+}
+
+
+::-webkit-scrollbar {
+    overflow: hidden;
+}
+  
