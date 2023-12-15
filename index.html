@@ -186,6 +186,14 @@
         </section>
 
         <section class="galerie" x-data="{displayedImage: null,}">
+            
+            <div class="overlay"
+            x-show="displayedImage"
+            @click="displayedImage=null"
+            @keyup.escape.window="displayedImage = null">
+                <figure><img :src="displayedImage" alt="image affichée"></figure>
+            </div>
+
         </section>
     </main>
     <!-- Fin du contenu principal -->
